@@ -1,0 +1,22 @@
+.big-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #4c9bd7;
+    color: #000000;
+}
+
+.big-card img {
+    flex: content;
+    margin-bottom: 10px;
+}
+
+.big-card h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
